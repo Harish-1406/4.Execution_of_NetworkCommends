@@ -27,7 +27,7 @@ This commands includes
 <BR>
 
 ## Program:
-Client:
+SERVER :
 ```py
 import socket
 from pythonping import ping
@@ -42,7 +42,7 @@ while True:
     except KeyError:
         c.send("Not Found".encode())
 ```
-Server:
+CLIENT :
 ```py
 import socket
 s=socket.socket()
